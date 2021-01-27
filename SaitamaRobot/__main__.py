@@ -22,16 +22,16 @@ from telegram.utils.helpers import escape_markdown
 
 PM_START_TEXT = """
 
-Hi {}, my name is {}! 
+Hi {}, my name is {Ultra}! 
 I am an Anime themed group management bot.
 You can find my list of available commands with /help.
 
-i'm a group manager bot. Maintained by @GarimaQueen
+i'm a group manager bot. Maintained by @PhantomRedXD
 
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Hey there! My name is *{Ultra}*.
 
 *Main* commands available:
  • /start: start the bot
@@ -49,7 +49,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://images.alphacoders.com/679/679719.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/92f797b2e3c97372e0af1.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer of the Base code, Paul
